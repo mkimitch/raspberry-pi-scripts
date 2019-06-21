@@ -6,7 +6,6 @@ sudo wget https://noto-website-2.storage.googleapis.com/pkgs/NotoSansDisplay-hin
 sudo wget https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifDisplay-hinted.zip
 sudo wget https://noto-website-2.storage.googleapis.com/pkgs/NotoMono-hinted.zip
 sudo wget https://noto-website-2.storage.googleapis.com/pkgs/NotoColorEmoji-unhinted.zip
-sudo wget https://noto-website-2.storage.googleapis.com/pkgs/NotoEmoji-unhinted.zip
 sudo wget https://noto-website-2.storage.googleapis.com/pkgs/NotoSansKannada-hinted.zip
 sudo wget https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifKannada-hinted.zip
 
@@ -16,12 +15,19 @@ sudo unzip NotoSansDisplay-hinted.zip -o
 sudo unzip NotoSerifDisplay-hinted.zip -o
 sudo unzip NotoMono-hinted.zip -o
 sudo unzip NotoColorEmoji-unhinted.zip -o
-sudo unzip NotoEmoji-unhinted.zip -o
 sudo unzip NotoSansKannada-hinted.zip -o
 sudo unzip NotoSerifKannada-hinted.zip -o
 
+sudo rm -v NotoSans-hinted.zip
+sudo rm -v NotoSerif-hinted.zip
+sudo rm -v NotoSansDisplay-hinted.zip
+sudo rm -v NotoSerifDisplay-hinted.zip
+sudo rm -v NotoMono-hinted.zip
+sudo rm -v NotoColorEmoji-unhinted.zip
+sudo rm -v NotoSansKannada-hinted.zip
+sudo rm -v NotoSerifKannada-hinted.zip
+
 sudo chmod 644 NotoColorEmoji.ttf
-sudo chmod 644 NotoEmoji-Regular.ttf
 sudo chmod 644 NotoMono-Regular.ttf
 sudo chmod 644 NotoSans-Black.ttf
 sudo chmod 644 NotoSans-BlackItalic.ttf
