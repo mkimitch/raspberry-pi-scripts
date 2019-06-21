@@ -1,7 +1,7 @@
 # raspberry-pi-scripts
 Scripts to help setup different functionality in a Raspberry Pi
 
-## Install Goolge Noto Fonts
+## Install Google Noto Fonts
 Run `sudo wget https://cdn.jsdelivr.net/gh/mkimitch/raspberry-pi-scripts/notofont.sh -O - | sh` to install Google Noto Fonts
 
 ## Shutdown script (WiP)
