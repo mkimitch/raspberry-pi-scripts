@@ -13,7 +13,7 @@ sudo unzip -o '*.zip'
 # Remove all .zip files
 sudo find . -maxdepth 1 -type f -iname \*.zip -delete
 # Set file permissions on all .ttf files
-find . -name "*.ttf" -exec chmod 644 {} \;
+find . -name "*.ttf" -exec sudo chmod 644 {} \;
 # Refresh the font cache
 fc-cache -f -v
 # Reboot your system
